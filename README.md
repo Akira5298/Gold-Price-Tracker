@@ -2,8 +2,6 @@
 
 A Unix-based data management project that collects gold price information, stores historical records in **MySQL**, and generates analytical visualizations with **Gnuplot**.
 
-Built for **COMP1314 — Data Management** coursework, the project combines Bash scripting, web data extraction, SQL, basic statistical analysis, and automated reporting.
-
 ## Features
 
 - Collects gold price data from a public website using `curl` and multiple text-parsing patterns.
