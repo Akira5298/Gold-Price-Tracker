@@ -129,7 +129,3 @@ gold-price-tracker/
 ## Technologies
 
 **Bash · MySQL · SQL · Gnuplot · curl · awk · sed · grep · bc · Git**
-
----
-
-*Coursework demonstration for data collection, database management, and historical price visualization. The bundled sample data and charts should not be treated as a live market feed or investment advice.*
