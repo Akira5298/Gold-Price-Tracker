@@ -1,7 +1,7 @@
 #Defines paths, filenames, and prepares directories
 #Ensures that required directories exist, and adds timestamp for logging
 
-mysqlcmd="/opt/homebrew/opt/mysql@5.7/bin/mysql"
+mysqlcmd="$(command -v mysql)"
 outputdir="plots"
 datafile="golddata.dat"
 statsfile="goldstats.dat"

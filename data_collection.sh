@@ -7,7 +7,7 @@ date=$(date +"%Y-%m-%d")
 time=$(date +"%Y-%m-%d %H:%M:%S")
 logfile="logs/collection.log"
 errorlog="logs/error.log"
-mysqlcmd="/opt/homebrew/opt/mysql@5.7/bin/mysql"
+mysqlcmd="$(command -v mysql)"
 mkdir -p logs
 echo "[$time] Starting collection..." >> $logfile
 
